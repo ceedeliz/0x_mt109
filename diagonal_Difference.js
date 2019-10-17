@@ -67,3 +67,4 @@ console.log("left rotation");
 
 
 
+console.log(cadena_rotada);
