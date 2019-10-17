@@ -1,0 +1,56 @@
+Questions:
+
+1 Es una manera de trabajar en la que el proceso es lineal en pasos como 1,2,3,4,5 algunos de los pasos son
+
+Requerimientos
+Diseño
+Implementación
+Pruebas de usuario
+Mejorar/corregir el sistema
+Producción
+
+A pesar de que el producto funcione siempre deben estar en constante mejora y mantenimiento.
+
+2 Tengo entendido que son partes de las pruebas. 
+  1 Unit test es a nivel local partiendo de módulos independientes y aislados.
+  2 Integration test Combinar diferentes módulos independientes verificar que funcionen y si hay errores corregirlos para que puedan coexistir perfectamente.
+  3 Una vez que ya funciona todo verificar una ultima vez en un entorno de producción.
+  
+3 Trabajo por objetivos y por fechas. Se pueden entregar diferentes piezas para un proyecto final mas grande. Cada persona y/o equipo se encarga de distintas partes que eventualmente se unirán.
+
+4 No conozco nada de Kent Beck
+
+5 Me parece que en la Startup de Árbol Financiero se utilizaba esta palabra y se refería a cada que cada cierto tiempo el jefe del equipo unía los avances hechos por cada miembro del equipo mediante Git y se encargaba de corregir los posibles fallos que podían presentar los módulos que cada uno trabajaba. Considero entonces que básicamente es estar constantemente actualizando y mejorando el código de todos en un solo proyecto y verificando que funcione. Desconozco la totalidad de los beneficios pero uno de los principales era que si el proyecto Se perdía de manera local, la última versión no estaba tan lejos de los últimos cambios realizados por lo que el tiempo "rescatado" era claramente una ventaja. Además si existía un error o algún cambio por parte del cliente se podía regresar a una versión "reciente" antes de que se pidiera ese cambio y no empezar de 0.
+
+6 No conocía el concepto como tal de "monolithic application" pero por el resto de la pregunta imagino que se refiere a una aplicación mucho mas plana  sencilla tanto en desarrollo como en ejecución y uso. Mientras una que contenga microservicios puede ser mas escalable y compleja debido a las funcionalidad que un microservicio puede añadir además de que no se limita a uno solo pues puede alimentarse de diferentes bases de datos.
+
+7 Trabajo en equipo, enfoque a resultados y mejora continua.
+
+8 Trabajar por parejas, En el ASE en tercer semestre durante la carrera, 2 personas teníamos que programar en el modulo administrativo, pero mientras uno veía como seria el diseño, el otro programaba la funcionalidad. Ambos cooperábamos mucho pues yo al ser el que programaba la funcionalidad tenia que decirle a mi compañero que se podía hacer y que no se podía hacer con el nivel que teníamos en ese entonces. Debido a esto ambos nos sentábamos y trabajamos a la par aunque cada quien el algo distinto (CSS y PHP).
+
+9 
+   - Numpy:
+        para Python por que me ayudo DEMASIADO en mi app que realice con Django, el apoyo y la facilidad que brindaba para realizar matrices y ciertas funcionalidades que de otra manera no podía fue sumamente útil para avanzar en el proyecto.
+   - Bootstrap:
+        Un imprescindible que ayuda mucho a hacer mas eficiente el proceso de diseño de algún sitio Web. No creo que haya mucho que explicar.
+   - OpenLayers:
+        Ayudo mucho al momento de crear una beta de una aplicación que consistía e mostrar la seguridad del país en mapa, algunas otras librerías las encontré un poco mas limitas y además eran de paga por lo que mi camino me llevo a esta herramienta, aunque nunca termine esa aplicación considero que el potencial para desarrollar apps con esta herramienta es inmenso.
+
+10 
+   - El diablo de las números:
+        Lo leí cuando tenia 17 años (se supone que era paran niños). Me hicieron ver que las matemáticas no eran tan malas y eso me motivo a no huir de la programación pues de niño/joven escuchaba muchas veces que la programación era pura matemática ( que al final tampoco era 100% matemáticas complejas (aunque existan proyectos súper complejos que las requieran)).
+
+    - Unity cookBook:
+        Lo leí  en cuarto semestre, necesitaba conocer mas de unity, me recomendaron el libro y me gusto no solo por el ámbito técnico si no que en los ejemplos que venían imaginabas las posibilidades de lo que se podía hacer cuando combinabas las cosas.
+
+    - Cualquier novela/articulo/artbook de halo (y obviamente los videojuegos):
+        Leí algunas novelas, vi. algunos artbook, leí artículos sobre este videojuego  durante toda mi niñez adolescencia y todo el universo que contenía y simplemente me pareció fascinante además de la posibilidad de imaginar que yo podía inventar mis propias aventuras con un personaje emblemático como master chief me hizo inclinar y decidirme a mejorar mi programación, para que algún día pudiera desarrollar un videojuego (fan) sobre Halo. 
+        Dato curioso: Mi sueño era trabajar en bungie como programador (cuando tenían la licencia de halo y no 343) 
+        
+        
+
+
+
+
+
+
