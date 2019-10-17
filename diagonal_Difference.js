@@ -52,9 +52,8 @@ for(var i=0; i <= 0; i++){
 }
 
 console.log("left rotation");
-function rotacion(){
     cadena_inicial = [0,1,2,3,4,5,6,7,8,9,10];
-    n_rotaciones =3;
+    n_rotaciones =5;
     contador = 0;
     cadena_rotada = [];
     for(var i=0; i <= cadena.length+1; i++){
@@ -65,10 +64,6 @@ function rotacion(){
             contador = contador + 1;
         }
     }
-    var x = document.getElementById("rotacion");
-    x.innerHTML = cadena_rotada;
-}
-
 
 
 
