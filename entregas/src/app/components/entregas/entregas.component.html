@@ -1,0 +1,121 @@
+<div class="container">
+<h1>Listados de entregas</h1>
+    <div class="card {{card_info[0].status}}">
+        <div class="info ruta">
+        <h3>Ruta</h3> 
+        <h2>{{card_info[0].route_id}}</h2>
+        </div>
+        <div class="info conductor">
+            <h3>conductor</h3> 
+            <h2>{{card_info[0].conductor}}</h2>
+
+            </div>
+        <div class="info creada">
+            <h3>Creada</h3> 
+            <h2>{{card_info[0].created_at}}</h2>
+        </div>
+        <div class="info inicio">
+            <h3>Inicio</h3> 
+            <h2>{{card_info[0].time_start}}</h2>
+        </div>
+        <div class="info termino">
+            <h3>Termino</h3> 
+            <h2>{{card_info[0].complet_at}}</h2>
+
+        </div>                          
+        <div class="info entregas">
+            <h3>Entregas {{card_info[0].deliveries}}</h3> 
+            <h2 class="status_active" *ngIf= "card_info[0].status == 'onroute'">En ruta</h2>
+            <h2 class="status_finished" *ngIf= "card_info[0].status == 'finished'">Completada</h2>
+        </div>                                                                
+    </div>
+    <div class="card {{card_info[10].status}}">
+        <div class="info ruta">
+        <h3>Ruta</h3> 
+        <h2>{{card_info[10].route_id}}</h2>
+        </div>
+        <div class="info conductor">
+            <h3>conductor</h3> 
+            <h2>{{card_info[10].conductor}}</h2>
+
+            </div>
+        <div class="info creada">
+            <h3>Creada</h3> 
+            <h2>{{card_info[10].created_at}}</h2>
+        </div>
+        <div class="info inicio">
+            <h3>Inicio</h3> 
+            <h2>{{card_info[10].time_start}}</h2>
+        </div>
+        <div class="info termino">
+            <h3>Termino</h3> 
+            <h2>{{card_info[10].complet_at}}</h2>
+
+        </div>                          
+        <div class="info entregas">
+            <h3>Entregas {{card_info[10].deliveries}}</h3> 
+            <h2 class="status_active" *ngIf= "card_info[10].status == 'onroute'">En ruta</h2>
+            <h2 class="status_finished" *ngIf= "card_info[10].status == 'finished'">Completada</h2>
+        </div>                                                                
+    </div>
+
+    <div class="card {{card_info[20].status}}">
+        <div class="info ruta">
+        <h3>Ruta</h3> 
+        <h2>{{card_info[20].route_id}}</h2>
+        </div>
+        <div class="info conductor">
+            <h3>conductor</h3> 
+            <h2>{{card_info[20].conductor}}</h2>
+
+            </div>
+        <div class="info creada">
+            <h3>Creada</h3> 
+            <h2>{{card_info[20].created_at}}</h2>
+        </div>
+        <div class="info inicio">
+            <h3>Inicio</h3> 
+            <h2>{{card_info[20].time_start}}</h2>
+        </div>
+        <div class="info termino">
+            <h3>Termino</h3> 
+            <h2>{{card_info[20].complet_at}}</h2>
+
+        </div>                          
+        <div class="info entregas">
+            <h3>Entregas {{card_info[20].deliveries}}</h3> 
+            <h2 class="status_active" *ngIf= "card_info[20].status == 'onroute'">En ruta</h2>
+            <h2 class="status_finished" *ngIf= "card_info[20].status == 'finished'">Completada</h2>
+        </div>                                                                
+    </div>
+    <div class="card {{card_info[30].status}}">
+        <div class="info ruta">
+        <h3>Ruta</h3> 
+        <h2>{{card_info[30].route_id}}</h2>
+        </div>
+        <div class="info conductor">
+            <h3>conductor</h3> 
+            <h2>{{card_info[30].conductor}}</h2>
+
+            </div>
+        <div class="info creada">
+            <h3>Creada</h3> 
+            <h2>{{card_info[30].created_at}}</h2>
+        </div>
+        <div class="info inicio">
+            <h3>Inicio</h3> 
+            <h2>{{card_info[30].time_start}}</h2>
+        </div>
+        <div class="info termino">
+            <h3>Termino</h3> 
+            <h2>{{card_info[30].complet_at}}</h2>
+
+        </div>                          
+        <div class="info entregas">
+            <h3>Entregas {{card_info[30].deliveries}}</h3> 
+            <h2 class="status_active" *ngIf= "card_info[30].status == 'onroute'">En ruta</h2>
+            <h2 class="status_finished" *ngIf= "card_info[30].status == 'finished'">Completada</h2>
+        </div>                                                                
+    </div>
+
+</div>
